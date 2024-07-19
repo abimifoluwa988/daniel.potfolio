@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+  }
+    
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #90e0ef;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .banner img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .about-me, .school {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .about-me h2, .school h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .upload {
+    margin-top: 20px;
+  }
+  
+  .upload input[type="file"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .swiper-wrapper img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 3px;
+  }
+  
+  .school button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .school button:hover {
+    background-color: #3e8e41;
+  }
+  .swiper-container {
+    width: calc(3 * 200px + 40px);  /* Adjust width for 6 images */
+    scroll-snap-type: x mandatory;
+    white-space: nowrap; /* Prevent line breaks */
+  }
+  
+  .swiper-wrapper {
+    width: calc(6 * 200px); /* Total width for 6 images */
+    display: flex;
+    flex-wrap: nowrap; /* Images displayed side-by-side */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snapping to images */
+  }
+  #passport{
+    background-color: #3e8e41;
+  }
+   
